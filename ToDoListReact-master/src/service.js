@@ -1,5 +1,5 @@
 import axios from 'axios';
-axios.defaults.baseURL = "https://localhost:7046"
+axios.defaults.baseURL = process.env.REACT_APP_CONNECT_TO_SERVER;
 
 
 export default {
